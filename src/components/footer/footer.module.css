@@ -1,8 +1,11 @@
 .container {
   display: flex;
-  height: 50px;
+  height: 70px;
   justify-content: space-between;
   align-items: center;
+  padding: 0 25px;
+  margin-top: 15px;
+  background-color: black;
 }
 
 .imgLink {

@@ -2,29 +2,27 @@
   display: flex;
   align-items: center;
   gap: 100px;
-  margin-top: 50px;
 }
 
 .item {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 50px;
 }
 
 .title {
-  font-size: 60px;
+  font-size: 72px;
   background: linear-gradient(to bottom, #194c33, #bbb);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .img {
   width: 100%;
-  height: 400px;
+  height: 500px;
   object-fit: contain;
-  animation: move 2s infinite ease-in-out alternate;
+  /* animation: move 3s infinite ease alternate; */
 }
 
 @keyframes move {
@@ -37,6 +35,6 @@
 }
 
 .desc {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
 }

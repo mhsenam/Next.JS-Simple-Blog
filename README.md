@@ -41,7 +41,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git https://github.com/mhsenam/next.js-blog.git
+git clone https://github.com/mhsenam/next.js-blog.git
 cd next.js-blog
 ```
 
